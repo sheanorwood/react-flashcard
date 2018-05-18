@@ -14,6 +14,14 @@
       const cardData = importedFlashCardDataFile;
 
     class App extends React.Component {
+      constructor() {
+        super();
+        this.state = {
+            cardData: []
+        };
+
+      }
+
       render(){
       return (
         <div className='App'>
